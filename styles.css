@@ -271,6 +271,11 @@ footer {
     justify-content: space-between;
     flex: wrap;
     gap: 1em;
+    margin-bottom: 2em;
+  }
+
+  .view-hidden {
+    display: none;
   }
 
   .blog-posts article {
@@ -279,10 +284,6 @@ footer {
 
   .blog-posts article {
     flex-basis: 250px;
-  }
-
-  .hidden {
-    display: none;
   }
 
   .blog-size {
